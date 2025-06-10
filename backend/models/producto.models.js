@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const sqchema = mongoose.Schema;
+const schema = mongoose.Schema;
 
 // Definir el esquema del producto
-const ProductoSchema = new sqchema({
+const ProductoSchema = new schema({
     nombre: {type: String, required: true},
     descripcion: {type: String, required: true},
     categoria: {type: String, required: true},
